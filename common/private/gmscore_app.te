@@ -1,0 +1,3 @@
+set_prop(gmscore_app, system_prop)
+
+allow gmscore_app extra_spoof_data_file:file r_file_perms;

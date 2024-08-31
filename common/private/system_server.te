@@ -3,6 +3,7 @@ allow system_server storage_stub_file:dir getattr;
 allow system_server adbroot_service:service_manager find;
 
 add_service(system_server, app_lock_service);
+allow system_server extra_spoof_data_file:file { relabelto rw_file_perms };
 
 # Use HALs
 hal_client_domain(system_server, hal_lineage_fastcharge)

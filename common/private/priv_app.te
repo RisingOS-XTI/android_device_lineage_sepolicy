@@ -1,1 +1,1 @@
-allow priv_app system_data_file:file r_file_perms;
+allow priv_app extra_spoof_data_file:file r_file_perms;

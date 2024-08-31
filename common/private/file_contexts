@@ -21,3 +21,7 @@
 
 # Pocket judge
 /sys/kernel/pocket_judge(/.*)?	u:object_r:pocket_judge_sysfs:s0
+
+# PropImitation
+/data/system/props\.json                       u:object_r:extra_spoof_data_file:s0
+/data/system/keys\.xml                         u:object_r:extra_spoof_data_file:s0
